@@ -1,0 +1,22 @@
+.card-heading{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.card-container{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+.card-name{
+    font-size: 18px;
+    font-weight: bold;
+}
+.card-price{
+    font-size: 19px;
+    font-weight: bolder;
+    line-height: 2.5rem;
+}
