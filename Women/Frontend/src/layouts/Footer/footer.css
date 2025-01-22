@@ -1,0 +1,59 @@
+.footer-first{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+.footer-section{
+    background-color: rgb(34,34,34);
+    padding: 40px;
+}
+.first{
+    width: 250px;
+    color: white;
+}
+.footer-heading{
+    line-height: 3.5rem;
+}
+.footer-text{
+    opacity: 70%;
+}
+.second{
+    width: 300px;
+    color: white;
+}
+.email-input{
+    background-color: black;
+    padding: 7px 12px;
+    border: 1px solid black;
+}
+.arrow{
+    padding: 7px 10px;
+    background-color: rgb(235, 77, 108);
+    color: white;
+}
+.third{
+    color: white;
+}
+.footer-icons{
+    opacity: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.3rem;
+    font-size: 13px;
+}
+.footer-icons i:hover{
+   color: #f75090;
+}
+.footer-madein{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+}
+.madein{
+   color: grey;
+    line-height: 8rem;
+    font-size: 14px;
+}
+

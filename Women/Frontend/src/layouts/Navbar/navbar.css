@@ -19,6 +19,22 @@
   gap: 2rem;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
+.right{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.basket, .favorite{
+  border:none
+}
+.basket-count, .fav-count{
+  padding: 2px 3px;
+  border-radius: 50%;
+  background-color: pink;
+  font-size: 9px;
+  font-weight: 600;
+}
 .login{
     background-color: aliceblue;
     border: none;

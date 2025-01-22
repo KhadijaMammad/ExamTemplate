@@ -1,7 +1,7 @@
 .home-page{
     display: flex;
     height: 80vh;
-    background-color: #f75090;
+    background-color: #f66ea2;
 }
 .home-left{
     width: 52%;
@@ -40,4 +40,8 @@
     background-color: white;
     border: none;
     font-weight: bold;
+}
+.purchase-btn:hover{
+    background-color: #f75090;
+    color: white;
 }

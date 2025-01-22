@@ -7,7 +7,7 @@ export const WomenController = {
     },
     getById: async (req,res)=>{
         let id=req.params.id
-        let myproduct= await WomenModel.findById(id)
+        let myproduct = await WomenModel.findById(id)
         res.send({
             message:"Success GetById",
             data:myproduct
